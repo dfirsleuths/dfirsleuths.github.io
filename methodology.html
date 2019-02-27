@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>DFIR Sleuths - Digital Corpora</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <!-- styles -->
+  <link href="assets/css/bootstrap.css" rel="stylesheet" />
+  <link href="assets/css/bootstrap-responsive.css" rel="stylesheet" />
+  <link href="assets/css/prettyPhoto.css" rel="stylesheet" />
+  <link href="assets/css/animate.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic|Roboto+Condensed:400,300,700" rel="stylesheet" />
+
+  <link href="assets/css/style.css" rel="stylesheet" />
+  <link href="assets/color/default.css" rel="stylesheet" />
+
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png" />
+  <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png" />
+  <link rel="shortcut icon" href="ico/favicon.ico" />
+
+  <!-- =======================================================
+    Theme Name: Vesperr
+    Theme URL: https://bootstrapmade.com/vesperr-free-bootstrap-template/
+    Author: BootstrapMade.com
+    Author URL: https://bootstrapmade.com
+	======================================================= -->
+</head>
+
+<body>
+  <header>
+    <!-- start top -->
+    <div id="topnav" class="navbar navbar-fixed-top default">
+      <div class="navbar-inner">
+        <div class="container">
+          <div class="logo">
+            <h1><span style="color:white; font-size:30pt; font-weight:bold">DFIR Sleuths</span></h1>
+          </div>
+          <div class="navigation">
+          </div>
+          <!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+    <!-- end top -->
+  </header>
+  <!-- Section about -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="row">
+        <div class="span12">
+          <div class="heading">
+            <h3><span>Methodology</span></h3>
+          </div>
+          <div class="sub-heading">
+            <p>
+              The team behind the Narcos scenario for the Wellington Institute of Technology project.
+            </p>
+          </div>
+        </div>
+	<div class="span2">
+	  </div>
+        <div class="span8">
+		
+		<img src="assets/img/portfolio/flow.jpg"></img>
+		
+		<p><strong>Recording Procedures</strong></p>
+		<ul>
+			<li>All tools used in the project had their version and hash recorded.</li>
+			<li>Each Virtual Machine had its own timeline recorded, tying into the main scenario timeline.</li>
+			<li>Each artefact generated was hashed and time stamped to maintain the integrity and align with the scenario timeline of events.</li>
+			<li>Tests along with outcomes and incidents were recorded.</li>
+		</ul>
+		
+		<p><strong>Development Setup</strong></p>
+		<ul>
+			<li>VMware version 14 was used to mount the Windows 10 ISOs.</li>
+			<li>Windows 10 1803 2018 April 1809 October and 1709 Fall builds were installed from ISO’s acquired from Windows 10 ISO DB. Windows Pro was chosen due to the flexibility that version of Windows has, even though it is more likely that the actors would have used Windows Home.</li>
+			<li>Each Operating system had their automatic update features disabled. Unfortunately, due to the using Windows 10, there is a 33 day limit on restricting automatic updates without the use of group policy.</li>
+			<li>Open source and free memory tools were tested to determine which tool leaves the smallest footprint on the virtual machine. Due to the limited support for Windows 10 only tools that were compatible were tested:</li>
+				<p></p>
+				<ul>
+					<li>FTK Imager Version 4.2.0.13</li>
+					<li>WinPmem Version 1.6.2</li>
+					<li>Belkasoft Ram Capturer 1.1.2</li>
+					<li>Comae Dumpit Version 3.0.20181116.2</li>
+				</ul>
+				<p></p>
+			<li>The team determined that Comae Dumpit had the least impact on a system.</li>
+		</ul>
+		
+		<p><strong>Testing Procedures</strong></p>
+		<ul>
+			<li>Artefacts generated were individually tested on each ISO version to determine changes between Windows builds. This also helped to test reproducibility.</li>
+			<li>During the unit test, testers used a fresh VM snapshot taken at installation, this allowed testers to reset the system to provide a clean testing platform.</li>
+			<li>System testing involved testing both the Virtual Machine and raw files artefacts. This ensured that no artefacts were lost during the conversion of the Virtual Machine to a raw file format.</li>
+		</ul>
+		
+		</div>
+	<div class="span2">
+	  </div>
+      </div>
+  </section>
+  <!-- end section about -->
+  <!-- footer -->
+  <footer>
+    <div class="verybottom">
+      <div class="container">
+        <div class="row">
+          <div class="span12">
+            <div class="aligncenter">
+              <p>
+                &copy; DFIR Sleuths - All right reserved
+              </p>
+              <div class="credits">
+                <!--
+                  All the links in the footer should remain intact.
+                  You can delete the links only if you purchased the pro version.
+                  Licensing information: https://bootstrapmade.com/license/
+                  Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Vesperr
+                -->
+                Created by <a href="https://bootstrapmade.com/">BootstrapMade.com</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <a href="#" class="scrollup"><i class="icon-chevron-up icon-square icon-48 active"></i></a>
+
+  <!-- Javascript Library Files -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/jquery.easing.js"></script>
+  <script src="assets/js/bootstrap.js"></script>
+  <script src="assets/js/parallax/jquery.parallax-1.1.3.js"></script>
+  <script src="assets/js/nagging-menu.js"></script>
+  <script src="assets/js/jquery.nav.js"></script>
+  <script src="assets/js/prettyPhoto/jquery.prettyPhoto.js"></script>
+  <script src="assets/js/portfolio/jquery.quicksand.js"></script>
+  <script src="assets/js/portfolio/setting.js"></script>
+  <script src="assets/js/hover/jquery-hover-effect.js"></script>
+  <script src="assets/js/jquery.scrollTo.min.js"></script>
+  <script src="assets/js/animate.js"></script>
+
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Custom Javascript File -->
+  <script src="assets/js/custom.js"></script>
+
+</body>
+
+</html>
