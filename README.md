@@ -1,4 +1,6 @@
-# DFIR Sleuths - Digital Corpora
+# Narcos - DFIR Sleuths
+
+A digital forensics scenario for Digital Corpora
 
 A digital forensics training scenario built by the DFIR Sleuths team as a group project for the Wellington Institute of Technology (WelTec).
 
