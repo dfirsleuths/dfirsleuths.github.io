@@ -1,419 +1,252 @@
 <!doctype html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
-  <title>DFIR Sleuths - Digital Corpora</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="" />
-  <meta name="author" content="" />
-  <!-- styles -->
-  <link href="assets/css/bootstrap.css" rel="stylesheet" />
-  <link href="assets/css/bootstrap-responsive.css" rel="stylesheet" />
-  <link href="assets/css/prettyPhoto.css" rel="stylesheet" />
-  <link href="assets/css/animate.css" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic|Roboto+Condensed:400,300,700" rel="stylesheet" />
-
-  <link href="assets/css/style.css" rel="stylesheet" />
-  <link href="assets/color/default.css" rel="stylesheet" />
-
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png" />
-  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png" />
-  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png" />
-  <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png" />
-  <link rel="shortcut icon" href="ico/favicon.ico" />
-
-  <!-- =======================================================
-    Theme Name: Vesperr
-    Theme URL: https://bootstrapmade.com/vesperr-free-bootstrap-template/
-    Author: BootstrapMade.com
-    Author URL: https://bootstrapmade.com
-	======================================================= -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self'; style-src 'self'; script-src 'self'; base-uri 'none'; form-action 'none'">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>Digital Corpora - DFIR Sleuths</title>
+  <meta name="description" content="Digital Corpora, a digital forensics training scenario built by the DFIR Sleuths team for the Wellington Institute of Technology.">
+  <meta name="theme-color" content="#0b0d12">
+  <link rel="icon" href="assets/img/brand/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="assets/img/brand/apple-touch-icon.png">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/lightbox.js" defer></script>
 </head>
-
 <body>
-  <header>
-    <!-- start top -->
-    <div id="topnav" class="navbar navbar-fixed-top default">
-      <div class="navbar-inner">
-        <div class="container">
-          <div class="logo">
-            <h1><span style="color:white; font-size:30pt; font-weight:bold">DFIR Sleuths</span></h1>
-          </div>
-          <div class="navigation">
-            <nav>
-              <ul class="nav pull-right">
-                <li class="current"><a href="#intro">Home</a></li>
-                <li><a href="#about">Team</a></li>
-                <li><a href="#services">Project</a></li>
-                <li><a href="#works">Tools</a></li>
-                <li><a href="#contact">Contact</a></li>
-              </ul>
-            </nav>
-          </div>
-          <!--/.nav-collapse -->
-        </div>
-      </div>
-    </div>
-    <!-- end top -->
-  </header>
-  <!-- section intro -->
-  <section id="intro">
-    <div class="slogan">
-      <div class="icon">
-         <img src="assets/ico/mag-eye.jpg"></img>
-      </div>
-      <h1>Welcome to <span>Digital Corpora</span></h1>
-      <h2>By DFIR Sleuths</h2>
-    </div>
-  </section>
-  <!-- end intro -->
-  <!-- Section about -->
-  <section id="about" class="section">
-    <div class="container">
-      <div class="row">
-        <div class="span12">
-          <div class="heading">
-            <h3><span>The Team</span></h3>
-          </div>
-          <div class="sub-heading">
-            <p>
-              The team behind the Narcos scenario for the Wellington Institute of Technology project.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="span2 offset1">
-          <img src="assets/img/dummies/corran.jpg" alt="" class="img-polaroid" />
-          <div class="roles">
-            <h5><strong>Corran Cockburn</strong></h5>
-            <p>
-              Project Manager
-            </p>
-            <ul class="social-profile">
-              <li><a href="https://www.linkedin.com/in/corran-cockburn-6b267b180" target="_blank"><i class="icon-linkedin icon-32 icon-circled"></i></a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="span2">
-          <img src="assets/img/dummies/abdul.jpg" alt="" class="img-polaroid" />
-          <div class="roles">
-            <h5><strong>Abdul Farah</strong></h5>
-            <p>
-              Team Member
-            </p>
-            <ul class="social-profile">
-              <li><a href="https://www.linkedin.com/in/abdul-farah-633608159" target="_blank"><i class="icon-linkedin icon-32 icon-circled"></i></a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="span2">
-          <img src="assets/img/dummies/kurt.jpg" alt="" class="img-polaroid" />
-          <div class="roles">
-            <h5><strong>Kurt Knudsen</strong></h5>
-            <p>
-              Team Member
-            </p>
-            <ul class="social-profile">
-              <li><a href="https://www.linkedin.com/in/kurt-knudsen-618680180" target="_blank"><i class="icon-linkedin icon-32 icon-circled"></i></a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="span2">
-          <img src="assets/img/dummies/rory.jpg" alt="" class="img-polaroid" />
-          <div class="roles">
-            <h5><strong>Rory Wagner</strong></h5>
-            <p>
-              Team Member
-            </p>
-            <ul class="social-profile">
-              <li><a href="https://www.linkedin.com/in/rorywagner" target="_blank"><i class="icon-linkedin icon-32 icon-circled"></i></a></li>
-            </ul>
-          </div>
-        </div>
-		<div class="span2">
-          <img src="assets/img/dummies/paul.jpg" alt="" class="img-polaroid" />
-          <div class="roles">
-            <h5><strong>Paul Bryant</strong></h5>
-            <p>
-              Client
-            </p>
-            <ul class="social-profile">
-              <li><a href="https://www.linkedin.com/in/paul-bryant-8b732a2/" target="_blank"><i class="icon-linkedin icon-32 icon-circled"></i></a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- end section about -->
-  <!-- section services -->
-  <section id="services" class="section parallax dark">
-    <div class="container">
-      <div class="row">
-        <div class="span12">
-          <div class="heading">
-            <h3><span>The Project</span></h3>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="span4">
-          <div class="box aligncenter">
-            <div class="halftop">
-              <h4><strong>Scenario</strong></h4>
-              <i class="icon-desktop icon-4x"></i>
-            </div>
-            <p>
-              Find out more about the scenario<br></br>
-            </p>
-            <a href="scenario.html" class="btn btn-theme" target="_blank">Learn more</a>
-          </div>
-        </div>
-        <div class="span4">
-          <div class="box aligncenter">
-            <div class="halftop">
-              <h4><strong>Methodology</strong></h4>
-              <i class="icon-file icon-4x"></i>
-            </div>
-            <p>
-              The process used to develop the project<br></br>
-            </p>
-            <a href="methodology.html" class="btn btn-theme" target="_blank">Learn more</a>
-          </div>
-        </div>
-        <div class="span4">
-          <div class="box aligncenter">
-            <div class="halftop">
-              <h4><strong>Testing</strong></h4>
-              <i class="icon-beaker icon-4x"></i>
-            </div>
-            <p>
-              The testing process utilised<br></br>
-            </p>
-            <a href="testing.html" class="btn btn-theme" target="_blank">Learn more</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- end section services -->
-  <!-- section works -->
-  <section id="works" class="section gray-bg">
-    <div class="container">
-      <div class="row">
-        <div class="span12">
-          <div class="heading">
-            <h3><span>Tools</span></h3>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="span12">
-          <div class="row">
-            <ul class="portfolio-area da-thumbs">
-              <li class="portfolio-item" data-id="id-0" data-type="web">
-                <div class="span3">
-                  <div class="thumbnail">
-                    <div class="image-wrapp">
-                      <img src="assets/img/portfolio/vmware.png" alt="VMware" title="" />
-                      <article class="da-animate da-slideFromRight" style="display: block;">
-                        <h5><strong>VMware</strong></h5>
-                        <a href="#"><i class="icon-rounded icon-48 icon-link"></i></a>
-                        <span><a class="zoom" data-pretty="prettyPhoto" href="assets/img/portfolio/vmwareBIG.png">
-								<i class="icon-rounded icon-48 icon-zoom-in"></i>
-								</a></span>
-                      </article>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li class="portfolio-item" data-id="id-0" data-type="web">
-                <div class="span3">
-                  <div class="thumbnail">
-                    <div class="image-wrapp">
-                      <img src="assets/img/portfolio/ftk.png" alt="FTK Imager" title="" />
-                      <article class="da-animate da-slideFromRight" style="display: block;">
-                        <h5><strong>FTK Imager</strong></h5>
-                        <a href="#"><i class="icon-rounded icon-48 icon-link"></i></a>
-                        <span><a class="zoom" data-pretty="prettyPhoto" href="assets/img/portfolio/ftkBIG.png">
-								<i class="icon-rounded icon-48 icon-zoom-in"></i>
-								</a></span>
-                      </article>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li class="portfolio-item" data-id="id-0" data-type="brand">
-                <div class="span3">
-                  <div class="thumbnail">
-                    <div class="image-wrapp">
-                      <img src="assets/img/portfolio/autopsy.png" alt="Autopsy" title="" />
-                      <article class="da-animate da-slideFromRight" style="display: block;">
-                        <h5><strong>Autopsy</strong></h5>
-                        <a href="#"><i class="icon-rounded icon-48 icon-link"></i></a>
-                        <span><a class="zoom" data-pretty="prettyPhoto" href="assets/img/portfolio/autopsyBIG.png">
-								<i class="icon-rounded icon-48 icon-zoom-in"></i>
-								</a></span>
-                      </article>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li class="portfolio-item" data-id="id-0" data-type="photo">
-                <div class="span3">
-                  <div class="thumbnail">
-                    <div class="image-wrapp">
-                      <img src="assets/img/portfolio/registryview.png" alt="Registry Viewer" title="" />
-                      <article class="da-animate da-slideFromRight" style="display: block;">
-                        <h5><strong>Registry Viewer</strong></h5>
-                        <a href="#"><i class="icon-rounded icon-48 icon-link"></i></a>
-                        <span><a class="zoom" data-pretty="prettyPhoto" href="assets/img/portfolio/registryviewBIG.png">
-								<i class="icon-rounded icon-48 icon-zoom-in"></i>
-								</a></span>
-                      </article>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li class="portfolio-item" data-id="id-0" data-type="graphic">
-                <div class="span3">
-                  <div class="thumbnail">
-                    <div class="image-wrapp">
-                      <img src="assets/img/portfolio/db.png" alt="DB Browser for SQLite" title="" />
-                      <article class="da-animate da-slideFromRight" style="display: block;">
-                        <h5><strong>DB Browser for SQLite</strong></h5>
-                        <a href="#"><i class="icon-rounded icon-48 icon-link"></i></a>
-                        <span><a class="zoom" data-pretty="prettyPhoto" href="assets/img/portfolio/dbBIG.png">
-								<i class="icon-rounded icon-48 icon-zoom-in"></i>
-								</a></span>
-                      </article>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li class="portfolio-item" data-id="id-0" data-type="graphic">
-                <div class="span3">
-                  <div class="thumbnail">
-                    <div class="image-wrapp">
-                      <img src="assets/img/portfolio/dumpit.png" alt="Portfolio name" title="" />
-                      <article class="da-animate da-slideFromRight" style="display: block;">
-                        <h5><strong>Dumpit</strong></h5>
-                        <a href="#"><i class="icon-rounded icon-48 icon-link"></i></a>
-                        <span><a class="zoom" data-pretty="prettyPhoto" href="assets/img/portfolio/dumpitBIG.png">
-								<i class="icon-rounded icon-48 icon-zoom-in"></i>
-								</a></span>
-                      </article>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li class="portfolio-item" data-id="id-0" data-type="photo">
-                <div class="span3">
-                  <div class="thumbnail">
-                    <div class="image-wrapp">
-                      <img src="assets/img/portfolio/volatility.png" alt="Portfolio name" title="" />
-                      <article class="da-animate da-slideFromRight" style="display: block;">
-                        <h5><strong>Volatility</strong></h5>
-                        <a href="#"><i class="icon-rounded icon-48 icon-link"></i></a>
-                        <span><a class="zoom" data-pretty="prettyPhoto" href="assets/img/portfolio/volatilityBIG.png">
-								<i class="icon-rounded icon-48 icon-zoom-in"></i>
-								</a></span>
-                      </article>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li class="portfolio-item" data-id="id-0" data-type="ilustrator">
-                <div class="span3">
-                  <div class="thumbnail">
-                    <div class="image-wrapp">
-                      <img src="assets/img/portfolio/bulk.png" alt="Portfolio name" title="" />
-                      <article class="da-animate da-slideFromRight" style="display: block;">
-                        <h5><strong>Bulk Extractor</strong></h5>
-                        <a href="#"><i class="icon-rounded icon-48 icon-link"></i></a>
-                        <span><a class="zoom" data-pretty="prettyPhoto" href="assets/img/portfolio/bulkBIG.png">
-								<i class="icon-rounded icon-48 icon-zoom-in"></i>
-								</a></span>
-                      </article>
-                    </div>
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- section works -->
-  <!-- section contact -->
-  <section id="contact" class="section">
-    <div class="container">
-      <div class="row">
-        <div class="span12">
-          <div class="heading">
-            <h3><span>Get in touch</span></h3>
-          </div>
-          <div class="sub-heading">
-            <p>
-              Feel free to get in touch through the Linkedin links below our profile photos or the Wellington Institute of Technology.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- end section contact -->
+  <svg class="sprite" aria-hidden="true">
+    <symbol id="i-linkedin" viewBox="0 0 24 24"><path fill="currentColor" d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zm1.78 13.02H3.56V9h3.56v11.45zM22.23 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></symbol>
+    <symbol id="i-monitor" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="3.5" width="19" height="13" rx="1.5"/><path d="M8 20.5h8M12 16.5v4"/></g></symbol>
+    <symbol id="i-document" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2.5H6.5a2 2 0 0 0-2 2v15a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V8z"/><path d="M14 2.5V8h5.5M8.5 13h7M8.5 17h7"/></g></symbol>
+    <symbol id="i-flask" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 2.5h6M10 2.5v7L4.6 18.9a1.8 1.8 0 0 0 1.6 2.6h11.6a1.8 1.8 0 0 0 1.6-2.6L14 9.5v-7"/><path d="M7 15h10"/></g></symbol>
+    <symbol id="i-zoom" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m20.5 20.5-5.2-5.2M10.5 8v5M8 10.5h5"/></g></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M6 6l12 12M18 6 6 18"/></symbol>
+  </svg>
 
-  <footer>
-    <div class="verybottom">
-      <div class="container">
-        <div class="row">
-          <div class="span12">
-            <div class="aligncenter">
-			<img src="assets/img/portfolio/welteclogo.jpg">
-              <p>
-                &copy; DFIR Sleuths - All right reserved
-              </p>
-              <div class="credits">
-                <!--
-                  All the links in the footer should remain intact.
-                  You can delete the links only if you purchased the pro version.
-                  Licensing information: https://bootstrapmade.com/license/
-                  Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Vesperr
-                -->
-                Created by <a href="https://bootstrapmade.com/">BootstrapMade.com</a>
-              </div>
-            </div>
-          </div>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#intro">
+        <img src="assets/img/brand/detective-96.webp" alt="" width="96" height="96">
+        DFIR Sleuths
+      </a>
+      <nav class="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="#intro">Home</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#project">Project</a></li>
+          <li><a href="#tools">Tools</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="intro" class="hero" aria-labelledby="intro-title">
+      <div class="wrap hero-inner">
+        <div>
+          <h1 id="intro-title">Welcome to <span>Digital Corpora</span></h1>
+          <p class="byline">By DFIR Sleuths</p>
+        </div>
+        <div class="hero-art">
+          <img src="assets/img/brand/detective.webp" alt="Noir illustration of a detective in a fedora, smoking, in front of a full moon marked with the Southern Cross" width="425" height="425" fetchpriority="high">
         </div>
       </div>
+    </section>
+
+    <section id="team" class="section" aria-labelledby="team-title">
+      <div class="wrap">
+        <header class="section-head">
+          <h2 id="team-title" class="cross-title">The Team</h2>
+          <p>The team behind the Narcos scenario for the Wellington Institute of Technology project.</p>
+        </header>
+        <ul class="team-grid">
+          <li class="person">
+            <img src="assets/img/team/corran.webp" alt="" width="360" height="384" loading="lazy" decoding="async">
+            <h3>Corran Cockburn</h3>
+            <p>Project Manager</p>
+            <a class="profile-link" href="https://www.linkedin.com/in/corran-cockburn-6b267b180">
+              <svg class="icon" aria-hidden="true"><use href="#i-linkedin"/></svg>
+              LinkedIn<span class="visually-hidden">: Corran Cockburn</span>
+            </a>
+          </li>
+          <li class="person">
+            <img src="assets/img/team/abdul.webp" alt="" width="360" height="384" loading="lazy" decoding="async">
+            <h3>Abdul Farah</h3>
+            <p>Team Member</p>
+            <a class="profile-link" href="https://www.linkedin.com/in/abdul-farah-633608159">
+              <svg class="icon" aria-hidden="true"><use href="#i-linkedin"/></svg>
+              LinkedIn<span class="visually-hidden">: Abdul Farah</span>
+            </a>
+          </li>
+          <li class="person">
+            <img src="assets/img/team/kurt.webp" alt="" width="360" height="384" loading="lazy" decoding="async">
+            <h3>Kurt Knudsen</h3>
+            <p>Team Member</p>
+            <a class="profile-link" href="https://www.linkedin.com/in/kurt-knudsen-618680180">
+              <svg class="icon" aria-hidden="true"><use href="#i-linkedin"/></svg>
+              LinkedIn<span class="visually-hidden">: Kurt Knudsen</span>
+            </a>
+          </li>
+          <li class="person">
+            <img src="assets/img/team/rory.webp" alt="" width="360" height="384" loading="lazy" decoding="async">
+            <h3>Rory Wagner</h3>
+            <p>Team Member</p>
+            <a class="profile-link" href="https://www.linkedin.com/in/rorywagner">
+              <svg class="icon" aria-hidden="true"><use href="#i-linkedin"/></svg>
+              LinkedIn<span class="visually-hidden">: Rory Wagner</span>
+            </a>
+          </li>
+          <li class="person">
+            <img src="assets/img/team/paul.webp" alt="" width="360" height="384" loading="lazy" decoding="async">
+            <h3>Paul Bryant</h3>
+            <p>Client</p>
+            <a class="profile-link" href="https://www.linkedin.com/in/paul-bryant-8b732a2/">
+              <svg class="icon" aria-hidden="true"><use href="#i-linkedin"/></svg>
+              LinkedIn<span class="visually-hidden">: Paul Bryant</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="project" class="section section--alt" aria-labelledby="project-title">
+      <div class="wrap">
+        <header class="section-head">
+          <h2 id="project-title" class="cross-title">The Project</h2>
+        </header>
+        <ul class="card-grid">
+          <li class="card">
+            <svg class="icon" aria-hidden="true"><use href="#i-monitor"/></svg>
+            <h3>Scenario</h3>
+            <p>Find out more about the scenario</p>
+            <a href="scenario.html">Learn more<span class="visually-hidden"> about the scenario</span> &rarr;</a>
+          </li>
+          <li class="card">
+            <svg class="icon" aria-hidden="true"><use href="#i-document"/></svg>
+            <h3>Methodology</h3>
+            <p>The process used to develop the project</p>
+            <a href="methodology.html">Learn more<span class="visually-hidden"> about the methodology</span> &rarr;</a>
+          </li>
+          <li class="card">
+            <svg class="icon" aria-hidden="true"><use href="#i-flask"/></svg>
+            <h3>Testing</h3>
+            <p>The testing process utilised</p>
+            <a href="testing.html">Learn more<span class="visually-hidden"> about testing</span> &rarr;</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="tools" class="section" aria-labelledby="tools-title">
+      <div class="wrap">
+        <header class="section-head">
+          <h2 id="tools-title" class="cross-title">Tools</h2>
+        </header>
+        <ul class="tool-grid">
+          <li>
+            <figure class="tool">
+              <a href="assets/img/tools/vmware.webp" data-lightbox data-caption="VMware" data-width="1920" data-height="1042">
+                <img src="assets/img/tools/vmware-thumb.webp" alt="Screenshot of VMware" width="640" height="360" loading="lazy" decoding="async">
+                <span class="zoom" aria-hidden="true"><svg class="icon"><use href="#i-zoom"/></svg></span>
+              </a>
+              <figcaption>VMware</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure class="tool">
+              <a href="assets/img/tools/ftk-imager.webp" data-lightbox data-caption="FTK Imager" data-width="1920" data-height="1043">
+                <img src="assets/img/tools/ftk-imager-thumb.webp" alt="Screenshot of FTK Imager" width="640" height="360" loading="lazy" decoding="async">
+                <span class="zoom" aria-hidden="true"><svg class="icon"><use href="#i-zoom"/></svg></span>
+              </a>
+              <figcaption>FTK Imager</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure class="tool">
+              <a href="assets/img/tools/autopsy.webp" data-lightbox data-caption="Autopsy" data-width="1920" data-height="1043">
+                <img src="assets/img/tools/autopsy-thumb.webp" alt="Screenshot of Autopsy" width="640" height="360" loading="lazy" decoding="async">
+                <span class="zoom" aria-hidden="true"><svg class="icon"><use href="#i-zoom"/></svg></span>
+              </a>
+              <figcaption>Autopsy</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure class="tool">
+              <a href="assets/img/tools/registry-viewer.webp" data-lightbox data-caption="Registry Viewer" data-width="1920" data-height="1043">
+                <img src="assets/img/tools/registry-viewer-thumb.webp" alt="Screenshot of Registry Viewer" width="640" height="360" loading="lazy" decoding="async">
+                <span class="zoom" aria-hidden="true"><svg class="icon"><use href="#i-zoom"/></svg></span>
+              </a>
+              <figcaption>Registry Viewer</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure class="tool">
+              <a href="assets/img/tools/db-browser.webp" data-lightbox data-caption="DB Browser for SQLite" data-width="1920" data-height="1043">
+                <img src="assets/img/tools/db-browser-thumb.webp" alt="Screenshot of DB Browser for SQLite" width="640" height="360" loading="lazy" decoding="async">
+                <span class="zoom" aria-hidden="true"><svg class="icon"><use href="#i-zoom"/></svg></span>
+              </a>
+              <figcaption>DB Browser for SQLite</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure class="tool">
+              <a href="assets/img/tools/dumpit.webp" data-lightbox data-caption="DumpIt" data-width="1921" data-height="1042">
+                <img src="assets/img/tools/dumpit-thumb.webp" alt="Screenshot of DumpIt" width="640" height="360" loading="lazy" decoding="async">
+                <span class="zoom" aria-hidden="true"><svg class="icon"><use href="#i-zoom"/></svg></span>
+              </a>
+              <figcaption>DumpIt</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure class="tool">
+              <a href="assets/img/tools/volatility.webp" data-lightbox data-caption="Volatility" data-width="1919" data-height="957">
+                <img src="assets/img/tools/volatility-thumb.webp" alt="Screenshot of Volatility" width="640" height="360" loading="lazy" decoding="async">
+                <span class="zoom" aria-hidden="true"><svg class="icon"><use href="#i-zoom"/></svg></span>
+              </a>
+              <figcaption>Volatility</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure class="tool">
+              <a href="assets/img/tools/bulk-extractor.webp" data-lightbox data-caption="Bulk Extractor" data-width="1921" data-height="1016">
+                <img src="assets/img/tools/bulk-extractor-thumb.webp" alt="Screenshot of Bulk Extractor" width="640" height="360" loading="lazy" decoding="async">
+                <span class="zoom" aria-hidden="true"><svg class="icon"><use href="#i-zoom"/></svg></span>
+              </a>
+              <figcaption>Bulk Extractor</figcaption>
+            </figure>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact" class="section section--alt contact" aria-labelledby="contact-title">
+      <div class="wrap">
+        <header class="section-head">
+          <h2 id="contact-title" class="cross-title">Get in touch</h2>
+          <p>Feel free to get in touch through the LinkedIn links below our profile photos or the Wellington Institute of Technology.</p>
+        </header>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <img src="assets/img/content/weltec.webp" alt="Wellington Institute of Technology (WelTec)" width="400" height="148" loading="lazy" decoding="async">
+      <p>&copy; DFIR Sleuths - All rights reserved</p>
     </div>
   </footer>
-  <a href="#" class="scrollup"><i class="icon-chevron-up icon-square icon-48 active"></i></a>
 
-  <!-- Javascript Library Files -->
-  <script src="assets/js/jquery.min.js"></script>
-  <script src="assets/js/jquery.easing.js"></script>
-  <script src="assets/js/bootstrap.js"></script>
-  <script src="assets/js/parallax/jquery.parallax-1.1.3.js"></script>
-  <script src="assets/js/nagging-menu.js"></script>
-  <script src="assets/js/jquery.nav.js"></script>
-  <script src="assets/js/prettyPhoto/jquery.prettyPhoto.js"></script>
-  <script src="assets/js/portfolio/jquery.quicksand.js"></script>
-  <script src="assets/js/portfolio/setting.js"></script>
-  <script src="assets/js/hover/jquery-hover-effect.js"></script>
-  <script src="assets/js/jquery.scrollTo.min.js"></script>
-  <script src="assets/js/animate.js"></script>
-
-  <!-- Contact Form JavaScript File -->
-  <script src="contactform/contactform.js"></script>
-
-  <!-- Template Custom Javascript File -->
-  <script src="assets/js/custom.js"></script>
-
+  <dialog id="lightbox" class="lightbox" aria-labelledby="lightbox-caption">
+    <button type="button" class="lightbox-close">
+      <svg class="icon" aria-hidden="true"><use href="#i-close"/></svg>
+      Close
+    </button>
+    <figure>
+      <figcaption id="lightbox-caption"></figcaption>
+    </figure>
+  </dialog>
 </body>
-
 </html>
