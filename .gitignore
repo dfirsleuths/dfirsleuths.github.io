@@ -1,0 +1,22 @@
+# Review screenshots and working notes stay local
+/screenshots/
+/review/
+/notes/
+/scratch/
+/*.png
+/*.jpg
+/*.jpeg
+/*.webp
+/*.gif
+/*.txt
+/*.md
+!/README.md
+
+# OS and editor clutter
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*~
