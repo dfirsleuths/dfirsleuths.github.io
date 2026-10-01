@@ -2,7 +2,7 @@
 
 A digital forensics scenario for Digital Corpora
 
-A digital forensics training scenario built by the DFIR Sleuths team as a group project for the Wellington Institute of Technology (WelTec).
+Built by the DFIR Sleuths team as a group project for the Wellington Institute of Technology (WelTec).
 
 The project set out to create a plausible, self-contained case so forensics students had realistic material to work with. The scenario follows an international drug-smuggling investigation across three suspect devices, each running a different Windows 10 build.
 
