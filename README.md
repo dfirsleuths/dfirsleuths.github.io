@@ -2,7 +2,7 @@
 
 A digital forensics training scenario built by the DFIR Sleuths team as a group project for the Wellington Institute of Technology (WelTec).
 
-The project set out to create a plausible, self-contained case so forensics students had realistic material to work. The scenario follows an international drug-smuggling investigation across three suspect devices, each running a different Windows 10 build.
+The project set out to create a plausible, self-contained case so forensics students had realistic material to work with. The scenario follows an international drug-smuggling investigation across three suspect devices, each running a different Windows 10 build.
 
 The scenario is published on Digital Corpora as the 2019 Narcos scenario:
 https://digitalcorpora.org/corpora/scenarios/2019-narcos/
