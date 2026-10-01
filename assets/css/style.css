@@ -505,13 +505,11 @@ a:hover {
 /* ---------- Published scenario callout ---------- */
 
 .callout {
-  position: relative;
   display: grid;
   gap: 1.25rem 2rem;
   align-items: center;
   margin-top: clamp(1.5rem, 4vw, 2.5rem);
   padding: clamp(1.75rem, 4vw, 2.5rem);
-  overflow: hidden;
   background:
     radial-gradient(30rem 14rem at 0% 0%, rgb(227 165 74 / 0.16), transparent 70%),
     var(--ink-3);
@@ -532,8 +530,6 @@ a:hover {
 }
 
 .callout .button {
-  position: relative;
-  z-index: 1;
   justify-self: start;
 }
 
