@@ -26,7 +26,7 @@ It's a hand-built static site: plain HTML and CSS with a small amount of JavaScr
 ## Team
 
 - Corran Cockburn - Project Manager
-- Abdul Farah - Team Member
+- Ali Yusuf - Team Member
 - Kurt Knudsen - Team Member
 - Rory Wagner - Team Member
 - Paul Bryant - Client
